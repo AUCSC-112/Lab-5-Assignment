@@ -226,7 +226,7 @@ public class DCircLinkList<E> {
     /**
      * Adds a node with an element to the "front" of the list.
      *
-     * @param element - the new information to store in the new node
+     * @param newNode - the new node to add to the front
      */
     public void addNodeAsFirst(DNode<E> newNode) {
         if (size == 0) { // if list is empty, then this node is the only
